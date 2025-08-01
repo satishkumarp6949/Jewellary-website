@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diamond Collection | Ornara Jewels</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #ffffff, #e0f7ff);
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #f8f9fa;
+    }
+    .heading {
+      font-weight: bold;
+      margin-top: 40px;
+      color: #3a3a3a;
+      text-shadow: 0 0 2px #ccc;
+    }
+    .shape-card {
+      border-radius: 15px;
+      transition: all 0.3s ease;
+      background-color: #fdfefe;
+      border: 1px solid #d4eaf7;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    }
+    .shape-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+    .shape-img {
+      border-radius: 15px 15px 0 0;
+      height: 200px;
+      object-fit: cover;
+    }
+    .shape-title {
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #0077b6;
+    }
+    footer {
+      margin-top: 50px;
+      background-color: #f0f0f0;
+      padding: 15px 0;
+    }
+
+    @media (max-width: 650px) {
+      .shape-img {
+        height: 160px;
+      }
+    }
+    @media (max-width: 450px) {
+      .shape-img {
+        height: 130px;
+      }
+      .shape-title {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand text-primary fw-bold" href="index.html"><i class="fa-solid fa-gem me-1"></i>Ornara Jewels</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="gold.html">Gold</a></li>
+          <li class="nav-item"><a class="nav-link" href="silver.html">Silver</a></li>
+          <li class="nav-item"><a class="nav-link active fw-bold" href="diamond.html">Diamond</a></li>
+          <li class="nav-item"><a class="nav-link" href="plan.html">Scheme</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Heading -->
+  <div class="text-center mt-4">
+    <h2 class="heading">Explore Diamond Shapes</h2>
+    <p class="text-muted">Choose your preferred cut to see our unique pieces</p>
+  </div>
+
+  <!-- Shapes Section -->
+  <div class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <a href="diamond-neck.html" class="text-decoration-none text-dark">
+          <div class="shape-card p-2">
+            <img src="images/diamond1.jpg" alt="Round Cut" class="w-100 shape-img" />
+            <div class="p-3 text-center">
+              <div class="shape-title">Necklace</div>
+              <p class="text-muted">Classic brilliance with timeless appeal.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="diamond-bangle.html" class="text-decoration-none text-dark">
+          <div class="shape-card p-2">
+            <img src="images/db1.jpg" alt="Princess Cut" class="w-100 shape-img" />
+            <div class="p-3 text-center">
+              <div class="shape-title">Bangles</div>
+              <p class="text-muted">Sharp and sparkly with royal grace.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="diamond-earring.html" class="text-decoration-none text-dark">
+          <div class="shape-card p-2">
+            <img src="images/db2.jpg" alt="Oval Cut" class="w-100 shape-img" />
+            <div class="p-3 text-center">
+              <div class="shape-title">Earrings</div>
+              <p class="text-muted">Elegant and elongated sparkle.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+         <div class="col-md-4">
+        <a href="diamond-ring.html" class="text-decoration-none text-dark">
+          <div class="shape-card p-2">
+            <img src="images/ringd.webp" alt="Princess Cut" class="w-100 shape-img" />
+            <div class="p-3 text-center">
+              <div class="shape-title">Rings</div>
+              <p class="text-muted">Sharp and sparkly with royal grace.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <small>&copy; 2025 Ornara Jewels. Designed with 💎 brilliance</small>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

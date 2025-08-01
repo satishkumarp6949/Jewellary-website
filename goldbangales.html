@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ornara Jewels - Bangles</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #fdf1c0, #f7cd6d);
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #fff7e7;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .nav-link {
+      font-weight: bold;
+      color: #9f6b08 !important;
+    }
+    .nav-link:hover {
+      color: #e6b800 !important;
+    }
+    .title {
+      text-align: center;
+      color: #a67c00;
+      padding-top: 40px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #5c4500;
+      margin-bottom: 40px;
+    }
+    .card {
+      border: none;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    }
+    .card img {
+      height: 220px;
+      object-fit: cover;
+    }
+    .btn-back {
+      background-color: #d4a017;
+      color: white;
+      border: none;
+      font-weight: bold;
+    }
+    .btn-back:hover {
+      background-color: #b8860b;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #333;
+    }
+
+    /* Media Queries */
+    @media (max-width: 650px) {
+      .title {
+        font-size: 1.6rem;
+      }
+      .card img {
+        height: 180px;
+      }
+    }
+
+    @media (max-width: 450px) {
+      .card {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand text-warning fw-bold" href="#"><i class="fa-solid fa-gem me-2"></i>Ornara Jewels</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="gold.html">Gold</a></li>
+          <li class="nav-item"><a class="nav-link" href="silver.html">Silver</a></li>
+          <li class="nav-item"><a class="nav-link" href="diamond.html">Diamond</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Title -->
+  <h1 class="title">Elegant Gold Bangles</h1>
+  <p class="subtitle">A touch of tradition with a modern twist</p>
+
+  <!-- Bangles Collection -->
+  <div class="container pb-5">
+    <div class="row g-4">
+      <div class="col-md-3 col-sm-6">
+        <div class="card">
+          <img src="images/ban1.jpg" class="card-img-top" alt="Temple Bangles">
+          <div class="card-body text-center">
+            <h5 class="card-title">Temple Bangles</h5>
+            <p class="card-text">Intricate craftsmanship from southern heritage.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="card">
+          <img src="images/bang2.jpg" class="card-img-top" alt="Filigree Bangles">
+          <div class="card-body text-center">
+            <h5 class="card-title">Filigree Work</h5>
+            <p class="card-text">Delicate thread-like detailing in pure gold.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="card">
+          <img src="images/bang3.jpg" class="card-img-top" alt="Modern Bangle Set">
+          <div class="card-body text-center">
+            <h5 class="card-title">Modern Chic</h5>
+            <p class="card-text">Sleek and minimal for the modern woman.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="card">
+          <img src="images/bang4.jpg" class="card-img-top" alt="Antique Bangles">
+          <div class="card-body text-center">
+            <h5 class="card-title">Antique Charm</h5>
+            <p class="card-text">Vintage inspired designs with rich polish.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back Button -->
+    <div class="text-center mt-5">
+      <a href="gold.html" class="btn btn-back"><i class="fa fa-arrow-left me-2"></i>Back to Gold</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Ornara Jewels. Gold is timeless. ✨
+  </footer>
+
+</body>
+</html>

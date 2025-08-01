@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gold Collection | Ornara Jewels</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #fffbe6, #f7e9c4);
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #fff8dc;
+    }
+    .heading {
+      font-weight: bold;
+      margin-top: 40px;
+      color: #5c4200;
+      text-shadow: 0 0 2px #d1aa33;
+    }
+    .gold-card {
+      border-radius: 15px;
+      background: #fff8e1;
+      border: 1px solid #eedca6;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: all 0.3s ease-in-out;
+    }
+    .gold-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+    .gold-img {
+      border-radius: 15px 15px 0 0;
+      height: 200px;
+      object-fit: cover;
+    }
+    .gold-title {
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #a67c00;
+    }
+
+    footer {
+      background-color: #fff1c1;
+      padding: 15px 0;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 650px) {
+      .gold-img {
+        height: 160px;
+      }
+    }
+    @media (max-width: 450px) {
+      .gold-img {
+        height: 130px;
+      }
+      .gold-title {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand text-warning fw-bold" href="index.html"><i class="fa-solid fa-gem me-1"></i>Ornara Jewels</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active fw-bold" href="#">Gold</a></li>
+          <li class="nav-item"><a class="nav-link" href="silver.html">Silver</a></li>
+          <li class="nav-item"><a class="nav-link" href="diamond.html">Diamond</a></li>
+           <li class="nav-item"><a class="nav-link" href="plan.html">Scheme</a></li>
+                  <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Heading -->
+  <div class="text-center mt-4">
+    <h2 class="heading">Royal Gold Ornaments</h2>
+    <p class="text-muted">Timeless elegance in 22K & 24K handcrafted designs</p>
+  </div>
+
+  <!-- Gold Items Grid -->
+  <div class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-3">
+        <a href="goldneck.html" class="text-decoration-none text-dark">
+          <div class="gold-card p-2">
+            <img src="images/Divine-mantra.jpg" class="gold-img w-100" alt="Necklace">
+            <div class="p-3 text-center">
+              <div class="gold-title"><i class="fa-solid fa-necklace me-2"></i>Necklace</div>
+              <p class="text-muted">Graceful and royal designs.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="goldbangales.html" class="text-decoration-none text-dark">
+          <div class="gold-card p-2">
+            <img src="images/bangales.jpg" class="gold-img w-100" alt="Bangles">
+            <div class="p-3 text-center">
+              <div class="gold-title"><i class="fa-solid fa-circle-notch me-2"></i>Bangles</div>
+              <p class="text-muted">Traditional beauty & elegance.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="goldearings.html" class="text-decoration-none text-dark">
+          <div class="gold-card p-2">
+            <img src="images/earings.jpg" class="gold-img w-100" alt="Earrings">
+            <div class="p-3 text-center">
+              <div class="gold-title"><i class="fa-solid fa-ear-listen me-2"></i>Earrings</div>
+              <p class="text-muted">Lightweight & premium look.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="goldrings.html" class="text-decoration-none text-dark">
+          <div class="gold-card p-2">
+            <img src="images/rings.webp" class="gold-img w-100" alt="Rings">
+            <div class="p-3 text-center">
+              <div class="gold-title"><i class="fa-solid fa-ring me-2"></i>Rings</div>
+              <p class="text-muted">Delicate 22k & 24k crafted rings.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <small>&copy; 2025 Ornara Jewels. Gold is forever ✨</small>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

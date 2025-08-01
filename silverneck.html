@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Silver Necklaces - Ornara Jewels</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #f1f1f1, #d3d3d3);
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #f0f0f0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .nav-link {
+      color: #333 !important;
+      font-weight: bold;
+    }
+    .nav-link:hover {
+      color: #000 !important;
+    }
+    .title {
+      text-align: center;
+      color: #444;
+      margin: 40px 0 10px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 1.1rem;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    .necklace-card {
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .necklace-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    .necklace-card img {
+      height: 230px;
+      object-fit: cover;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+    .btn-back {
+      background-color: #a9a9a9;
+      color: white;
+      margin-top: 30px;
+    }
+    .btn-back:hover {
+      background-color: #7a7a7a;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #555;
+    }
+
+    @media (max-width: 650px) {
+      .title {
+        font-size: 1.5rem;
+      }
+      .necklace-card img {
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-dark" href="#"><i class="fa-solid fa-gem me-2"></i>Ornara Jewels</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="gold.html">Gold</a></li>
+          <li class="nav-item"><a class="nav-link" href="silver.html">Silver</a></li>
+          <li class="nav-item"><a class="nav-link" href="diamond.html">Diamond</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Title -->
+  <h2 class="title">Silver Necklaces</h2>
+  <p class="subtitle">Elegant designs handcrafted in pure silver</p>
+
+  <!-- Necklace Collection -->
+  <div class="container pb-5">
+    <div class="row g-4">
+      <div class="col-md-4 col-sm-6">
+        <div class="card necklace-card">
+          <img src="images/nec2.jpg" class="card-img-top" alt="Silver Heart Necklace">
+          <div class="card-body text-center">
+            <h5 class="card-title">Heart Pendant</h5>
+            <p class="card-text">Delicate heart-shaped silver charm.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card necklace-card">
+          <img src="images/ne1.jpg" class="card-img-top" alt="Silver Stone Necklace">
+          <div class="card-body text-center">
+            <h5 class="card-title">Stone Choker</h5>
+            <p class="card-text">Modern stone-studded silver choker.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card necklace-card">
+          <img src="images/ne3.jpg" class="card-img-top" alt="Silver Layered Necklace">
+          <div class="card-body text-center">
+            <h5 class="card-title">Layered Links</h5>
+            <p class="card-text">Trendy layered necklace with polished links.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back Button -->
+    <div class="text-center">
+      <a href="silver.html" class="btn btn-back mt-4"><i class="fa-solid fa-arrow-left me-2"></i>Back to Silver</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Ornara Jewels. Silver elegance refined.
+  </footer>
+
+</body>
+</html>
